@@ -1,0 +1,341 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap'); */
+@import url("https://v1.fontapi.ir/css/VazirFD");
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+ul,
+li,
+::placeholder,
+span,
+label {
+    font-family: Vazir FD, sans-serif;
+    /* font-family: Vazirmatn, sans-serif; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background: #f9ecf2;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.top-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background: #f9ecf2;
+    padding: 10px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.left-menu {
+    text-align: left;
+}
+
+.wallet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 4px;
+    color: black;
+}
+
+.wallet img {
+    width: 20px;
+    color: #ff6cb0;
+}
+
+.brand {
+    border-right: 3px solid #ff6cb0;
+    background: #fff;
+    padding: 4px 8px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    color: #ff6cb0;
+}
+
+.card-service {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: white;
+    border-radius: 6px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.card-service .title {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-width: 650px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+.bottom-bar a {
+    text-align: center;
+    flex: 1;
+}
+
+.bottom-bar img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon svg {
+    color: #ff6cb0;
+    width: 36px;
+    height: 36px;
+}
+
+.icon svg path {
+    stroke-width: 1;
+}
+
+.swiper {
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #eee;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.card {
+    border: none;
+}
+
+.border-dashed {
+    border: 2px dashed #dfdfdf;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.card-item .icon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.card-item .title {
+    font-size: 14px;
+}
+
+.icon-green {
+    background: rgb(54, 226, 126);
+    color: white;
+}
+
+.icon-red {
+    background: #ff0076;
+    color: white;
+}
+
+.icon-blue {
+    background: #ff6cb0;
+    color: white;
+}
+
+.icon-yellow {
+    background: rgb(255 179 0);
+    color: white;
+}
+
+.icon-gray {
+    background: rgb(157 157 157);
+    color: white;
+}
+
+.button-float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255 179 0);
+    color: white;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    z-index: 100;
+}
+
+.card {
+    box-shadow: none !important;
+}
+
+.card.card-subscription.disable::after {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    backdrop-filter: grayscale(1) blur(1px);
+}
+
+.bottom-bar svg,
+.search-button svg,
+.left-menu svg{
+    color: #ff6cb0;
+}
+.left-menu a{
+    color: #9e9e9e;
+}
+.search-form {
+    border: 1px solid #ff6cb0 !important;
+}
+.search-input::placeholder {
+    color: #ff6cb0 !important;
+}
+
+.alert {
+    padding: 6px;
+    font-size: 13px;
+}
+
+.alert-warning {
+    background: #ffefe6;
+    color: #ff9756;
+    border-color: #ff9756;
+}
+
+.alert-danger {
+    background: #fde0e0;
+    color: #ff6c6c;
+    border-color: #ff6c6c;
+}
+
+.alert-success {
+    background: #ffe7f2;
+    color: #ff6cb0;
+    border-color: #ff6cb0;
+}
+
+.alert-info {
+    background: #e6edff;
+    color: #6c98ff;
+    border-color: #6c98ff;
+}
+
+.h6, h6 {
+    font-size: .8rem;
+}
+
+.form-label {
+    margin-bottom: .5rem;
+    font-size: 13px;
+}
+
+input#amount {
+    font-size: 12px;
+}
+
+.btn {
+    font-size: 12px;
+}
+
+.text-plan {
+    font-size: 10px;
+}
+
+.card-title {
+    font-size: 13px;
+}
+
+.color-primary{
+    color: #ff0076;
+}
+
+.bg-success {
+    background-color: #ff6cb0 !important;
+}
+
+.bg-danger {
+    background-color: #ff5151 !important;
+}
+
+.wallet-card .type-credit {
+    color: #ff6cb0 !important;
+}
+
+.wallet-card .type-debit {
+    color: #ff5151 !important;
+}
+
+.custom-pagination a:hover {
+    background: rgb(255 0 118 / 10%) !important;
+}
