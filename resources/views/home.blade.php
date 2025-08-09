@@ -11,7 +11,7 @@
                     طریق فیلم‌های کوتاه و جذاب.<br>با روشی متفاوت و لذت‌بخش، زبان انگلیسی را به آسانی یاد بگیرید.
                 </p>
                 <div class="flex justify-center mb-5">
-                    <img class="w-1/3" src="{{ asset('images') }}/chitoz.png" alt="یادگیری زبان با فیلم" class="w-full h-auto">
+                    <img class="md:w-1/3" src="{{ asset('images') }}/chitoz.png" alt="یادگیری زبان با فیلم">
                 </div>
             </div>
 
