@@ -25,7 +25,7 @@
         <p>شما در حال حاضر از اشتراک رایگان استفاده میکنید</p>
         <p>در حالت رایگان روزانه فقط ۳ عبارت را می توانید جستجو کرده و در هر بار جستجو فقط ۳ سکانس نمایش داده می شود!</p>
         <p>برای استفاده نامحدود می توانید اشتراک حرفه ای تهیه کنید</p>
-        <a href="{{ route('user.subscript.plans') }}" class="btn btn-sm btn-light mt-3">خرید اشتراک</a>
+        <a href="{{ route('user.subscript.plans') }}" class="btn btn-sm btn-primary mt-3">خرید اشتراک</a>
     </div>
 
     {{-- <x-services-list /> --}}
