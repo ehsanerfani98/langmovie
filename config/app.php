@@ -213,6 +213,7 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
         'ZarinPal' => App\Facades\ZarinPal::class,
+        'Zibal' => App\Facades\Zibal::class
     ])->toArray(),
 
 

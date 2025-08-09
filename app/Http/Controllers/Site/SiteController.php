@@ -39,7 +39,7 @@ class SiteController extends Controller
                     'user_id' => Auth::id(),
                     'subscription_id' => $newSubscription->id,
                     'starts_at' => now(),
-                    'ends_at' => now()->addDays($newSubscription->duration_days),
+                    'ends_at' => now()->addDays((int) $newSubscription->duration_days),
                 ]);
 
                 return redirect()->route('user.home')->with('success', 'اشتراک رایگان شما با موفقیت فعال شد');
@@ -124,7 +124,7 @@ class SiteController extends Controller
                         'user_id' => $payment->user_id,
                         'subscription_id' => $subscription->id,
                         'starts_at' => now(),
-                        'ends_at' => now()->addDays($subscription->duration_days),
+                        'ends_at' => now()->addDays((int) $subscription->duration_days),
                     ]);
                     $payment->update(['user_subscription_id' => $userSub->id]);
                     return redirect()->route('user.home')->with('success', 'پرداخت با موفقیت انجام شد');
@@ -170,7 +170,7 @@ class SiteController extends Controller
                             'user_id' => $payment->user_id,
                             'subscription_id' => $subscription->id,
                             'starts_at' => now(),
-                            'ends_at' => now()->addDays($subscription->duration_days),
+                            'ends_at' => now()->addDays((int) $subscription->duration_days),
                         ]);
                         $payment->update(['user_subscription_id' => $userSub->id]);
                         return redirect()->route('user.home')->with('success', 'پرداخت با موفقیت انجام شد');
@@ -195,7 +195,7 @@ class SiteController extends Controller
             'ends_at' => now(),
         ]);
 
-        $totalDays = $newSubscription->duration_days + $remainingDays;
+        $totalDays = (int) $newSubscription->duration_days + (int) $remainingDays;
         $startsAt = now();
         $endsAt = (clone $startsAt)->addDays($totalDays);
 
