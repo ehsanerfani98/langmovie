@@ -13,7 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="stylesheet" href="{{ asset('site-assets/css/style.css?v=2') }}">
+    <link rel="stylesheet" href="{{ asset('site-assets/css/style.css?v=3') }}">
     @yield('css')
 </head>
 
