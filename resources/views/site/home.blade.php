@@ -21,7 +21,7 @@
 
     <x-search-movie />
 
-    @if (auth()->user()->hasActiveSubscription())
+    @if (!auth()->user()->hasActiveSubscription())
         <div class="card-alert-subscribe">
             <p>شما در حال حاضر از اشتراک رایگان استفاده میکنید</p>
             <p>در حالت رایگان روزانه فقط ۳ عبارت را می توانید جستجو کرده و در هر بار جستجو فقط ۳ سکانس نمایش داده می شود!
