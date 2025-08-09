@@ -339,3 +339,31 @@ input#amount {
 .custom-pagination a:hover {
     background: rgb(255 0 118 / 10%) !important;
 }
+
+.card-alert-subscribe {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 11px;
+    border: 1px solid #ffa2bd;
+    box-shadow: 0px 3px 6px #ffd3e8;
+    color: #474747;
+}
+
+.card-alert-subscribe p {
+    margin: 0;
+    line-height: 2;
+    position: relative;
+    padding-right: 8px;
+}
+
+.card-alert-subscribe p::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ff6cb0;
+    position: absolute;
+    right: -3px;
+    top: 9px;
+}
