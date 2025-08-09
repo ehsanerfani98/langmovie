@@ -283,6 +283,7 @@
                                 </path>
                             </svg>
                             <span>۰۹۱۹-۱۸۱۶۱۷۲</span>
+                            <span>۰۲۸-۳۲۵۲۶۶۳۶</span>
                         </li>
                         <li class="flex items-start gap-2">
                             <svg class="w-5 h-5 mr-2 mt-0.5" fill="none" stroke="currentColor"
