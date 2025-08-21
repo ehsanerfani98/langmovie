@@ -15,6 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="{{ asset('site-assets/css/style.css?v=3') }}">
     @laravelPWA
+    
     @yield('css')
 </head>
 
