@@ -15,6 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="{{ asset('site-assets/css/style.css?v=3') }}">
     @yield('css')
+    @laravelPWA
 </head>
 
 <body>
@@ -106,7 +107,7 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="{{ asset('site-assets/js/scripts.js') }}"></script>
-    
+
     @stack('scripts')
 
 </body>

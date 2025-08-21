@@ -156,6 +156,7 @@ class ComposerStaticInitc15e1318325e5dac036cf197f2d320f6
             'Laravel\\Sail\\' => 13,
             'Laravel\\Reverb\\' => 15,
             'Laravel\\Prompts\\' => 16,
+            'LaravelPWA\\' => 11,
         ),
         'I' => 
         array (
@@ -480,8 +481,8 @@ class ComposerStaticInitc15e1318325e5dac036cf197f2d320f6
         ),
         'League\\Uri\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/uri-interfaces',
-            1 => __DIR__ . '/..' . '/league/uri',
+            0 => __DIR__ . '/..' . '/league/uri',
+            1 => __DIR__ . '/..' . '/league/uri-interfaces',
         ),
         'League\\MimeTypeDetection\\' => 
         array (
@@ -530,6 +531,10 @@ class ComposerStaticInitc15e1318325e5dac036cf197f2d320f6
         'Laravel\\Prompts\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/prompts/src',
+        ),
+        'LaravelPWA\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silviolleite/laravelpwa',
         ),
         'Illuminate\\Support\\' => 
         array (
@@ -655,6 +660,7 @@ class ComposerStaticInitc15e1318325e5dac036cf197f2d320f6
         'App\\Events\\TestChannelEvent' => __DIR__ . '/../..' . '/app/Events/TestChannelEvent.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Facades\\ZarinPal' => __DIR__ . '/../..' . '/app/Facades/ZarinPal.php',
+        'App\\Facades\\Zibal' => __DIR__ . '/../..' . '/app/Facades/Zibal.php',
         'App\\Http\\Controllers\\Auth\\ConfirmPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ConfirmPasswordController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
@@ -688,6 +694,7 @@ class ComposerStaticInitc15e1318325e5dac036cf197f2d320f6
         'App\\Http\\Middleware\\EnsureUserProfileIsComplete' => __DIR__ . '/../..' . '/app/Http/Middleware/EnsureUserProfileIsComplete.php',
         'App\\Http\\Middleware\\LoginByMobile' => __DIR__ . '/../..' . '/app/Http/Middleware/LoginByMobile.php',
         'App\\Http\\Middleware\\PreventRequestsDuringMaintenance' => __DIR__ . '/../..' . '/app/Http/Middleware/PreventRequestsDuringMaintenance.php',
+        'App\\Http\\Middleware\\RateLimitBlocker' => __DIR__ . '/../..' . '/app/Http/Middleware/RateLimitBlocker.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\RedirectIfRole' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfRole.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
@@ -726,6 +733,7 @@ class ComposerStaticInitc15e1318325e5dac036cf197f2d320f6
         'App\\Providers\\ZarinPalServiceProvider' => __DIR__ . '/../..' . '/app/Providers/ZarinPalServiceProvider.php',
         'App\\Services\\Ippanel\\OtpService' => __DIR__ . '/../..' . '/app/Services/Ippanel/OtpService.php',
         'App\\Services\\Zarinpal\\ZarinPalService' => __DIR__ . '/../..' . '/app/Services/Zarinpal/ZarinPalService.php',
+        'App\\Services\\Zibal\\ZibalService' => __DIR__ . '/../..' . '/app/Services/Zibal/ZibalService.php',
         'App\\View\\Components\\BannerList' => __DIR__ . '/../..' . '/app/View/Components/BannerList.php',
         'App\\View\\Components\\SearchMovie' => __DIR__ . '/../..' . '/app/View/Components/SearchMovie.php',
         'App\\View\\Components\\ServicesList' => __DIR__ . '/../..' . '/app/View/Components/ServicesList.php',
@@ -3108,6 +3116,11 @@ class ComposerStaticInitc15e1318325e5dac036cf197f2d320f6
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'LaravelPWA\\Http\\Controllers\\LaravelPWAController' => __DIR__ . '/..' . '/silviolleite/laravelpwa/Http/Controllers/LaravelPWAController.php',
+        'LaravelPWA\\Providers\\LaravelPWAServiceProvider' => __DIR__ . '/..' . '/silviolleite/laravelpwa/Providers/LaravelPWAServiceProvider.php',
+        'LaravelPWA\\Providers\\RouteServiceProvider' => __DIR__ . '/..' . '/silviolleite/laravelpwa/Providers/RouteServiceProvider.php',
+        'LaravelPWA\\Services\\ManifestService' => __DIR__ . '/..' . '/silviolleite/laravelpwa/Services/ManifestService.php',
+        'LaravelPWA\\Services\\MetaService' => __DIR__ . '/..' . '/silviolleite/laravelpwa/Services/MetaService.php',
         'Laravel\\Prompts\\Clear' => __DIR__ . '/..' . '/laravel/prompts/src/Clear.php',
         'Laravel\\Prompts\\Concerns\\Colors' => __DIR__ . '/..' . '/laravel/prompts/src/Concerns/Colors.php',
         'Laravel\\Prompts\\Concerns\\Cursor' => __DIR__ . '/..' . '/laravel/prompts/src/Concerns/Cursor.php',
